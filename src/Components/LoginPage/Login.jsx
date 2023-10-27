@@ -21,6 +21,9 @@ const Login = () => {
       <button type="submit" className="login-button">
         LOGIN!
       </button>
+      <p className="login-new-p">
+        New? <a className="login-create-account" href="localhost:5173/createNewUser">Create Account!</a>
+      </p>
     </div>
   );
 };

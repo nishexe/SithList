@@ -59,8 +59,23 @@ input::placeholder {
 }
 .login-button:hover {
   background-color: #585858;
+  background-color: #303030;
+  border: 1px solid antiquewhite;
 }
 .login-button:active {
   color: white;
-  background-color: #303030;
+  background-color: #1d1d1d;
+  border: 1px solid antiquewhite;
+  border-radius: 2rem;
+}
+
+.login-new-p {
+  color: rgb(146, 146, 146);
+}
+p > a {
+  color: rgb(146, 146, 146);
+}
+
+p > a:active {
+  color: #ffffff;
 }
